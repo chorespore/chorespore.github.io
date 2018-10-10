@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Clerk</title>
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body class="fix-header card-no-border">
+<img src="beloved.jpg">
+
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+            <!-- ============================================================== -->
+
+            <!-- Start Page Content -->
+            <!-- ============================================================== -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Choose Shifts</h4>
+                            <h6 class="card-subtitle">Click on time points which you want to work at</h6>
+                            <div class="table-responsive">
+                                <table id="mainTable" class="table editable-table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Sun</th>
+                                        <th>Mon</th>
+                                        <th>Tue</th>
+                                        <th>Wed</th>
+                                        <th>Thu</th>
+                                        <th>Fri</th>
+                                        <th>Sat</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="morning">
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                        <td><i class="wi wi-time-7"></i> Morning</td>
+                                    </tr>
+                                    <tr class="middle">
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                        <td><i class="wi wi-time-3"></i> Middle</td>
+                                    </tr>
+                                    <tr class="night">
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                        <td><i class="wi wi-time-11"></i> Night</td>
+                                    </tr>
+                                    <tr class="night">
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                        <td><i class="wi wi-time-12"></i> Rest</td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default waves-effect waves-light" id="clearBtn">
+                                    Clear
+                                </button>
+                                <button type="button" class="btn btn-primary waves-effect waves-light" id="applyBtn">
+                                    Apply
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End PAge Content -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer">
+            © 2018 Store Roster by Chao
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="clerk-apply.js"></script>
+
+</body>
+
+</html>
